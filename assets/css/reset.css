@@ -248,14 +248,21 @@ img.portfolio_pic{
 div.right{
 	float:right;
 	clear: right;
+
+	/*box-sizing: border-box;*/
+
+	
 }
 
 div.left{
 	float:left;
 	clear: left;
+
+	/*box-sizing: border-box;*/
+
 }
 
-p.left{
+div.label_left{
 	background-color: #4aaaa5;
 
 	color: white;
@@ -263,9 +270,11 @@ p.left{
 	text-align: center;
 
 	z-index: 1;
+
+	/*box-sizing: border-box;
 }
 
-p.right{
+div.label_right{
 	background-color: #4aaaa5;
 
 	color: white;
@@ -273,10 +282,14 @@ p.right{
 	text-align: center;
 
 	z-index: 1;
+
+	/*Move the item down*/
+	/*box-sizing: border-box;*/
+	/*margin-bottom: 20px;*/
 }
 
 #background_image{
-	z-index: -1;
-	background-image: url("assets/images/concrete_seamless.png");
+	/*z-index: -1;*/
+	background-image: url("../images/concrete_seamless.png");
 
 }
